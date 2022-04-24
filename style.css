@@ -4,15 +4,39 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: hsl(0, 0%, 100%);
-    max-width: 1440px;
-    margin: auto;
-   
+    margin: 3em;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-top: 40px;
+    font-family: 'raleway';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+}
+
+a {
+    margin: 0;
+    padding: .5em 27px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
 }
 
 .firstimg {
-    width: 400px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
+
 }
+
 h2 {
     font-family: 'raleway';
     font-weight: 700;
@@ -37,6 +61,16 @@ h2 {
     margin: auto;
     text-align: center;
     cursor: pointer;
-    
-
 }
+
+@media screen and (max-width: 375px) {
+ 
+    body {
+        width: 100%; 
+        font-size: 14px;
+     }
+
+    a {
+        padding: .5em 1em;
+    }
+    }
