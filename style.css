@@ -4,32 +4,39 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: hsl(0, 0%, 100%);
-    text-align: center;
+    max-width: 1440px;
+    margin: auto;
    
 }
 
 .firstimg {
-    width: 100px;
-    height: 10px;
+    width: 400px;
+    height: 300px;
 }
 h2 {
     font-family: 'raleway';
     font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.hero {
+    text-align: center;
+    margin: 2em 0 2em 0;
 }
 
 .butt {
     border: solid 1px black;
     border-radius: 25px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    background-color: hsl(176, 68%, 64%);
-    background-color: hsl(198, 60%, 50%);
+    padding: 3px 3px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%) );
     width: 230px;
     font-family: 'raleway';
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     margin: auto;
+    text-align: center;
+    cursor: pointer;
     
 
 }
