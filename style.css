@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-}
+    }
 
 .nav {
     margin-top: 40px;
@@ -26,9 +26,10 @@ ul {
 
 a {
     margin: 0;
-    padding: .5em 27px;
+    padding: .5em 25px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+    font-weight: 400;
 }
 
 .firstimg {
@@ -52,9 +53,9 @@ h2 {
 .butt {
     border: solid 1px black;
     border-radius: 25px;
-    padding: 10px 10px;
+    padding: 0px 10px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%) );
-    width: 230px;
+    width: 240px;
     font-family: 'raleway';
     font-weight: 700;
     color: hsl(0, 0%, 100%);
@@ -66,27 +67,27 @@ h2 {
 
 
 
-
+/*obinna section
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
 }
-
-body{
+*/
+/*.sec-part{
     background-color: hsl(216,53%,9%);
     line-height: 1.2rem;
     font-size: 16px;
     color: #fff;
     font-family: 'Raleway', sans-serif;
-    quotes: '\201c' '\201d'; 
+    quotes: '\201c' '\201d';*/
 }
 
 .container{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1rem;
+    width: 100%;
+    padding: 5px;
 }
 
 .grid-box{
@@ -120,6 +121,7 @@ a{
 
 .main-read .container{
     flex-direction: column;
+    display: flex;
 }
 
 .branding h3{
@@ -163,9 +165,6 @@ a{
     margin-bottom: 5rem;
     padding: 2rem;
 }
-
-
-
 
 
 
@@ -228,7 +227,7 @@ a{
 
 
 /* Media queries */
-@media screen and (min-width:768px){
+@media screen and (min-width:600px){
     .main-read .container{
         display: flex;
         flex-direction: row;
@@ -241,6 +240,8 @@ a{
         gap: 2em;
     }
 
-    
-}
+    a {
+        padding: .5em 10px;
+    }
 
+}
