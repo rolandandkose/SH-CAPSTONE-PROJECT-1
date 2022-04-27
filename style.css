@@ -52,7 +52,7 @@ h2 {
 .butt {
     border: solid 1px black;
     border-radius: 25px;
-    padding: 3px 3px;
+    padding: 10px 10px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%) );
     width: 230px;
     font-family: 'raleway';
@@ -61,6 +61,7 @@ h2 {
     margin: auto;
     text-align: center;
     cursor: pointer;
+    
 }
 
 
@@ -181,7 +182,7 @@ a{
 }
 
 .feedback-box{
-    background-color: hsl(217,28%,15%);
+    background-color: hsl(219,30%,18%);
     padding: 1rem;
     border-radius: 5px;
 }
